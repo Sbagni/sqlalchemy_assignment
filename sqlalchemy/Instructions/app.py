@@ -77,15 +77,17 @@ def tobs():
 @app.route ('/api/v1.0/<start>')
 def strt(start):
     session = Session(engine)
-    s = jsonify(session.query(func.min(Measurement.tobs),func.avg(Measurement.tobs),func.max(Measurement.tobs)).filter(Measurement.date>=start).all())
+    s = jsonify(session.query(func.min(Measurement.tobs),func.avg(Measurement.tobs),func.max(Measurement.tobs)).filter(Measurement.date>=start).all()
     return s
-@app.route("/api/v1.0/date/<start>/<end>")
-def st_end(start = None,end = None):
+@app.route("/api/v1.0/date/<start_date>/<end_date>")
+def st_end(start_date = None,end_date = None):
 
         session = Session(engine)
-        st_end = session.query(func.min(Measurement.tobs),func.avg(Measurement.tobs),func.max(Measurement.tobs)).filter(Measurement.date>=start).filter(Measurement.date<=end).all()
+        st_end = session.query(func.min(Measurement.tobs),func.avg(Measurement.tobs),func.max(Measurement.tobs)).filter(Measurement.date>=start_date).filter(Measurement.end_date<=end).all()
         return jsonify(st_end) 
 
+    
+    
 if __name__ == '__main__':
     app.run(debug=True)
 
