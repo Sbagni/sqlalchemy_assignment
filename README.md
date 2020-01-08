@@ -2,7 +2,7 @@
 
 ![surfs-up.jpeg](Images/surfs-up.png)
 
-Congratulations! You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii! To help with your trip planning, you need to do some climate analysis on the area. The following outlines what you need to do.
+The main objective of this assignment was to help with trip planning, we did some climate analysis on the given area, Honululu, Hawai. The following outlines what we did.
 
 ## Step 1 - Climate Analysis and Exploration
 
