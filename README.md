@@ -36,19 +36,19 @@ I used Python and SQLAlchemy to do basic climate analysis and data exploration o
 
 * Designed a query to calculate the total number of stations.
 
-* Design a query to find the most active stations.
+* Designed a query to find the most active stations.
 
-  * List the stations and observation counts in descending order.
+  * Listed the stations and observation counts in descending order.
 
   * Which station has the highest number of observations?
 
-  * Hint: You may need to use functions such as `func.min`, `func.max`, `func.avg`, and `func.count` in your queries.
+  * Used functions such as `func.min`, `func.max`, `func.avg`, and `func.count` in  queries.
 
-* Design a query to retrieve the last 12 months of temperature observation data (tobs).
+* Designed a query to retrieve the last 12 months of temperature observation data (tobs).
 
-  * Filter by the station with the highest number of observations.
+  * Filtered by the station with the highest number of observations.
 
-  * Plot the results as a histogram with `bins=12`.
+  * Plotted the results as a histogram with `bins=12`.
 
     ![station-histogram](Images/station-histogram.png)
 
@@ -56,9 +56,9 @@ I used Python and SQLAlchemy to do basic climate analysis and data exploration o
 
 ## Step 2 - Climate App
 
-Now that you have completed your initial analysis, design a Flask API based on the queries that you have just developed.
+Designed a Flask API based on the queries that we have just developed.
 
-* Use FLASK to create your routes.
+* Used FLASK to create your routes.
 
 ### Routes
 
