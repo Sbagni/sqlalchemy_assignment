@@ -34,7 +34,7 @@ I used Python and SQLAlchemy to do basic climate analysis and data exploration o
 
 ### Station Analysis
 
-* Design a query to calculate the total number of stations.
+* Designed a query to calculate the total number of stations.
 
 * Design a query to find the most active stations.
 
